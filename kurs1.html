@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Курсовая работа:)</title> 
 </head> 
 
 <style>
@@ -12,11 +11,11 @@ form * {
 }
 
 ul {
-  list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
-  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  list-style: none; /*ГіГЎГЁГ°Г ГҐГ¬ Г¬Г Г°ГЄГҐГ°Г» Г±ГЇГЁГ±ГЄГ */
+  margin: 0; /*ГіГЎГЁГ°Г ГҐГ¬ ГўГҐГ°ГµГ­ГҐГҐ ГЁ Г­ГЁГ¦Г­ГҐГҐ ГЇГ®Г«ГҐ, Г°Г ГўГ­Г®ГҐ 1em*/
+  padding-left: 0; /*ГіГЎГЁГ°Г ГҐГ¬ Г«ГҐГўГ»Г© Г®ГІГ±ГІГіГЇ, Г°Г ГўГ­Г»Г© 40px*/
 }
-a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+a {text-decoration: none; /*ГіГЎГЁГ°Г ГҐГ¬ ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГҐ ГІГҐГЄГ±ГІГ  Г±Г±Г»Г«Г®ГЄ*/}
 
 
 .top-menu {
@@ -103,20 +102,6 @@ background-size:350px 200px;
 
 }
 
-</style>
-<script language="Javascript" >
-function download(filename, text) {
-  var pom = document.createElement('a');
- 
-  pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-  pom.setAttribute('download', filename);
-  pom.style.display = 'none';
-  document.body.appendChild(pom);
-  pom.click();
-  document.body.removeChild(pom);
-
-}
-</script>
 </head>
 
 
@@ -127,8 +112,8 @@ function download(filename, text) {
 <nav class="top-menu">
   <ul class="menu-main">
   
-    <li><a href="" class="current">Генерация билетов</a></li>
-    <li><a href="">Об авторе</a></li>
+    <li><a href="" class="current">ГѓГҐГ­ГҐГ°Г Г¶ГЁГї ГЎГЁГ«ГҐГІГ®Гў</a></li>
+    <li><a href="">ГЋГЎ Г ГўГІГ®Г°ГҐ</a></li>
   </ul>
 </nav>
 
@@ -136,20 +121,20 @@ function download(filename, text) {
 
 
 
-<form onsubmit="download(this['name'].value, 'Факультет:' + this['n1'].value+ '\n'  + 'Дисциплина:' + this['n3'].value +  '\n' + 'Направление (специальность):' + this['n4'].value+  '\n' + 'Профиль (специализация):' + this['n5'].value)">
+<form onsubmit="download(this['name'].value, 'Г”Г ГЄГіГ«ГјГІГҐГІ:' + this['n1'].value+ '\n'  + 'Г„ГЁГ±Г¶ГЁГЇГ«ГЁГ­Г :' + this['n3'].value +  '\n' + 'ГЌГ ГЇГ°Г ГўГ«ГҐГ­ГЁГҐ (Г±ГЇГҐГ¶ГЁГ Г«ГјГ­Г®Г±ГІГј):' + this['n4'].value+  '\n' + 'ГЏГ°Г®ГґГЁГ«Гј (Г±ГЇГҐГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї):' + this['n5'].value)">
 
 <br>
-Как назвать итоговый файл: <input type="text" name="name" value="Билеты.doc">
-Факультет: <input type="text"  name="n1" value="Информационные технологиии">
-Кафедра: <input type="text"  name="n2" placeholder="Введите название кафедры.">
-Дисциплина: <input type="text"  name="n3" placeholder="Введите название дисциплины.">
-Направление (специальность): <input type="text"  name="n4" placeholder="Введите название специальности.">
-Профиль (специализация): <input type="text"  name="n5" placeholder="Введите название специализации.">
-ФИО завйдующего каф: <input type="text"  name="n5" placeholder="Введите название специализации.">
-Имя преподавателя: <input type="text"  name="n6" placeholder="Введите имя преподавателя." >
-Список вопросов:
-<textarea rows=3 cols=50 name="text" placeholder="Введите список вопросов."> </textarea>
-  <input type="submit" value="Создать">
+ГЉГ ГЄ Г­Г Г§ГўГ ГІГј ГЁГІГ®ГЈГ®ГўГ»Г© ГґГ Г©Г«: <input type="text" name="name" value="ГЃГЁГ«ГҐГІГ».doc">
+Г”Г ГЄГіГ«ГјГІГҐГІ: <input type="text"  name="n1" value="Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГ®Г­Г­Г»ГҐ ГІГҐГµГ­Г®Г«Г®ГЈГЁГЁГЁ">
+ГЉГ ГґГҐГ¤Г°Г : <input type="text"  name="n2" placeholder="Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г§ГўГ Г­ГЁГҐ ГЄГ ГґГҐГ¤Г°Г».">
+Г„ГЁГ±Г¶ГЁГЇГ«ГЁГ­Г : <input type="text"  name="n3" placeholder="Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г§ГўГ Г­ГЁГҐ Г¤ГЁГ±Г¶ГЁГЇГ«ГЁГ­Г».">
+ГЌГ ГЇГ°Г ГўГ«ГҐГ­ГЁГҐ (Г±ГЇГҐГ¶ГЁГ Г«ГјГ­Г®Г±ГІГј): <input type="text"  name="n4" placeholder="Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г§ГўГ Г­ГЁГҐ Г±ГЇГҐГ¶ГЁГ Г«ГјГ­Г®Г±ГІГЁ.">
+ГЏГ°Г®ГґГЁГ«Гј (Г±ГЇГҐГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї): <input type="text"  name="n5" placeholder="Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г§ГўГ Г­ГЁГҐ Г±ГЇГҐГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГЁ.">
+Г”Г€ГЋ Г§Г ГўГ©Г¤ГіГѕГ№ГҐГЈГ® ГЄГ Гґ: <input type="text"  name="n5" placeholder="Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г§ГўГ Г­ГЁГҐ Г±ГЇГҐГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГЁ.">
+Г€Г¬Гї ГЇГ°ГҐГЇГ®Г¤Г ГўГ ГІГҐГ«Гї: <input type="text"  name="n6" placeholder="Г‚ГўГҐГ¤ГЁГІГҐ ГЁГ¬Гї ГЇГ°ГҐГЇГ®Г¤Г ГўГ ГІГҐГ«Гї." >
+Г‘ГЇГЁГ±Г®ГЄ ГўГ®ГЇГ°Г®Г±Г®Гў:
+<textarea rows=3 cols=50 name="text" placeholder="Г‚ГўГҐГ¤ГЁГІГҐ Г±ГЇГЁГ±Г®ГЄ ГўГ®ГЇГ°Г®Г±Г®Гў."> </textarea>
+  <input type="submit" value="Г‘Г®Г§Г¤Г ГІГј">
 
 </form>
 </center>
